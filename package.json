@@ -1,0 +1,19 @@
+{
+  "name": "sports_lines-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eacraft13/sports_lines-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eacraft13/sports_lines-api/issues"
+  },
+  "homepage": "https://github.com/eacraft13/sports_lines-api#readme"
+}
