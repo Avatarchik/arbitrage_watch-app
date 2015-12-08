@@ -1,5 +1,5 @@
 {
-  "name": "sports_lines-api",
+  "name": "arbitrage_watch-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eacraft13/sports_lines-api.git"
+    "url": "git+https://github.com/eacraft13/arbitrage_watch-app.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/eacraft13/sports_lines-api/issues"
+    "url": "https://github.com/eacraft13/arbitrage_watch-app/issues"
   },
-  "homepage": "https://github.com/eacraft13/sports_lines-api#readme"
+  "homepage": "https://github.com/eacraft13/arbitrage_watch-app#readme"
 }
