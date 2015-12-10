@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/eacraft13/arbitrage_watch-app/issues"
   },
-  "homepage": "https://github.com/eacraft13/arbitrage_watch-app#readme"
+  "homepage": "https://github.com/eacraft13/arbitrage_watch-app#readme",
+  "dependencies": {
+    "jsdom": "^7.2.0",
+    "lodash": "^3.10.1",
+    "request": "^2.67.0"
+  }
 }
