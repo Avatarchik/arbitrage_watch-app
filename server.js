@@ -8,9 +8,12 @@ covers(function(err, data) {
     if (err) throw err;
 
     _.each(data, function(match) {
-        Arbitrage.calculate(match.board, function(err, data) {
-            if (data)
+        Arbitrage.calculate(match.board, 1000, function(err, data) {
+            if (data) {
+                console.log(match.away, 'vs', match.home);
                 console.log(JSON.stringify(data, null, 4));
+                console.log();
+            }
         });
     });
 });
