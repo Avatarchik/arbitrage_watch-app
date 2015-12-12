@@ -10,7 +10,7 @@ covers(function(err, data) {
     _.each(data, function(match) {
         Arbitrage.calculate(match.board, 1000, function(err, data) {
             if (data) {
-                console.log(match.away, 'vs', match.home);
+                console.log(match.sport.toUpperCase(), ':', match.away, 'vs', match.home, ':', match.time);
                 console.log(JSON.stringify(data, null, 4));
                 console.log();
             }
