@@ -23,6 +23,7 @@ setInterval(function() {
 r.connect()
 .then(function(conn) {
     r.table('match').changes().run(conn, function(err, cursor) {
+        process.stdout.write('!');
         cursor.each(function(err, row) {
             var match = row.new_val;
             Arbitrage.calculate(match.board, 1000, function(err, data) {
