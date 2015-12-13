@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/eacraft13/arbitrage_watch-app#readme",
   "dependencies": {
+    "ajv": "^2.4.0",
     "async": "^1.5.0",
     "jsdom": "^7.2.0",
     "lodash": "^3.10.1",
