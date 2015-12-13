@@ -1,0 +1,37 @@
+{
+	"title": "Match",
+    "description": "A sport's match between two opponents.",
+	"type": "object",
+	"properties": {
+		"board": {
+			"description": "An array of odds from different sources for this match.",
+			"type": "array",
+			"items": { "$ref": "./odds.json" }
+		},
+		"sport": {
+			"description": "The sport being played (e.g., NFL, NCAAB, etc.).",
+			"type": "string"
+		},
+		"teamAway": {
+			"description": "Name of the away team.",
+			"type": "string"
+		},
+		"teamHome": {
+			"description": "Name of the home team.",
+			"type": "string"
+		},
+		"time": {
+			"description": "Timestamp (in seconds) of when the match occurs.",
+			"type": "number"
+		},
+        "created": {
+            "description": "Timestamp (in seconds) when odds were created in the database.",
+            "type": "number"
+        },
+        "updated": {
+            "description": "Timestamp (in seconds) when odds were last updated in the database.",
+            "type": "number"
+        }
+	},
+	"required": ["sport", "teamAway", "teamHome", "time", "created", "updated"]
+}
