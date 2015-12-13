@@ -34,7 +34,7 @@ r.connect()
                         home: match.home,
                         time: match.time,
                         data: data
-                    });
+                    }).run(conn);
                 }
             });
         });
