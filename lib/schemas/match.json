@@ -20,15 +20,15 @@
 				{
 					"description": "Home team's name/city/state (not nickname) in lower case and trimmed.",
 					"type": "string",
-					"pattern": "[a-z-]+"
+					"pattern": "[a-z_]+"
 				},
 				{
 					"description": "Match's epoch timestamp (in seconds).",
-					"type": "integer"
+					"type": "number"
 				}
 			]
 		},
-		"lines": {
+		"board": {
 			"description": "An array of odds from different sources for this match.",
 			"type": "array",
 			"items": { "$ref": "./odds.json" }
